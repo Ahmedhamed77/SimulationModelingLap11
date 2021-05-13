@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Lap#9</title>
+</head>
+<body>
+<div class="page">
+
+    <div class="container">
+        <canvas id="myChart"></canvas>
+
+        <div class="info">
+            <h4>Average:<span class="avg"></span></h4>
+            <h4>Variance:<span class="variance"></span></h4>
+         <!--   <h4>Chi-Squared:<span class="chi"></span></h4>-->
+        </div>
+    </div>
+    <div class="box-container">
+        <fieldset>
+            <legend>
+                <h3>Random Events</h3>
+            </legend>
+
+            <div class="box">
+                <label>
+                    <p>firstEvent</p>
+                    <input type="number" id="first_rand">
+                </label>
+                <label>
+
+                    <p>SecondEvent</p>
+                    <input type="number" id="sec_rand">
+                </label>
+                <label>
+                    <p>ThirdEvent</p>
+                    <input type="number" id="third_rand">
+                </label>
+                <label>
+
+                    <p>FourthEvent</p>
+                    <input type="number" id="fourth_rand">
+                </label>
+
+                <label class="auto">
+                    <p>AutoEvent</p>
+                    <button type="button" class="auto_btn">Auto</button>
+                </label>
+                <label>Number of trials <input type="number" id="trails"></label>
+                <button class="btn">submit</button>
+            </div>
+        </fieldset>
+
+
+    </div>
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

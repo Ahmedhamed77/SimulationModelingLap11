@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    /*background-image: url("images/Rick-and-Morty.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.page {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+}
+
+
+.box-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+label{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+p{
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.container {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+input{
+    margin-left: 10px;
+    outline: none;
+}
+
+button{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 5px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.auto_btn{
+    margin-left: 55px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 960px) {
+    .page{
+        flex-direction: column;
+    }
+}
